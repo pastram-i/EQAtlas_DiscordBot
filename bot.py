@@ -1,11 +1,3 @@
-"""
-Copyright © Krypton 2019-2023 - https://github.com/kkrypt0nn (https://krypton.ninja)
-Description:
-🐍 A simple template to start to code your own and personalized discord bot in Python programming language.
-
-Version: 5.5.0
-"""
-
 import asyncio
 import json
 import logging
@@ -27,48 +19,7 @@ else:
     with open(f"{os.path.realpath(os.path.dirname(__file__))}/config.json") as file:
         config = json.load(file)
 
-"""	
-Setup bot intents (events restrictions)
-For more information about intents, please go to the following websites:
-https://discordpy.readthedocs.io/en/latest/intents.html
-https://discordpy.readthedocs.io/en/latest/intents.html#privileged-intents
-
-
-Default Intents:
-intents.bans = True
-intents.dm_messages = True
-intents.dm_reactions = True
-intents.dm_typing = True
-intents.emojis = True
-intents.emojis_and_stickers = True
-intents.guild_messages = True
-intents.guild_reactions = True
-intents.guild_scheduled_events = True
-intents.guild_typing = True
-intents.guilds = True
-intents.integrations = True
-intents.invites = True
-intents.messages = True # `message_content` is required to get the content of the messages
-intents.reactions = True
-intents.typing = True
-intents.voice_states = True
-intents.webhooks = True
-
-Privileged Intents (Needs to be enabled on developer portal of Discord), please use them only if you need them:
-intents.members = True
-intents.message_content = True
-intents.presences = True
-"""
-
 intents = discord.Intents.default()
-
-"""
-Uncomment this if you want to use prefix (normal) commands.
-It is recommended to use slash commands and therefore not use prefix commands.
-
-If you want to use prefix commands, make sure to also enable the intent below in the Discord developer portal.
-"""
-# intents.message_content = True
 
 bot = Bot(
     command_prefix=commands.when_mentioned_or(config["prefix"]),
@@ -77,8 +28,6 @@ bot = Bot(
 )
 
 # Setup both of the loggers
-
-
 class LoggingFormatter(logging.Formatter):
     # Colors
     black = "\x1b[30m"
@@ -139,22 +88,11 @@ async def init_db():
             await db.executescript(file.read())
         await db.commit()
 
-
-"""
-Create a bot variable to access the config file in cogs so that you don't need to import it every time.
-
-The config is available using the following code:
-- bot.config # In this file
-- self.bot.config # In cogs
-"""
 bot.config = config
 
 
 @bot.event
 async def on_ready() -> None:
-    """
-    The code in this event is executed when the bot is ready.
-    """
     bot.logger.info(f"Logged in as {bot.user.name}")
     bot.logger.info(f"discord.py API version: {discord.__version__}")
     bot.logger.info(f"Python version: {platform.python_version()}")
@@ -168,32 +106,23 @@ async def on_ready() -> None:
 
 @tasks.loop(minutes=1.0)
 async def status_task() -> None:
-    """
-    Setup the game status task of the bot.
-    """
-    statuses = ["with you!", "with Krypton!", "with humans!"]
-    await bot.change_presence(activity=discord.Game(random.choice(statuses)))
+    await bot.change_presence(activity=discord.Game('Cartography!'))
 
 
-@bot.event
-async def on_message(message: discord.Message) -> None:
-    """
-    The code in this event is executed every time someone sends a message, with or without the prefix
+# @bot.event
+# async def on_message(message: discord.Message) -> None:
+#     """
+#     The code in this event is executed every time someone sends a message, with or without the prefix
 
-    :param message: The message that was sent.
-    """
-    if message.author == bot.user or message.author.bot:
-        return
-    await bot.process_commands(message)
+#     :param message: The message that was sent.
+#     """
+#     if message.author == bot.user or message.author.bot:
+#         return
+#     await bot.process_commands(message)
 
 
 @bot.event
 async def on_command_completion(context: Context) -> None:
-    """
-    The code in this event is executed every time a normal command has been *successfully* executed.
-
-    :param context: The context of the command that has been executed.
-    """
     full_command_name = context.command.qualified_name
     split = full_command_name.split(" ")
     executed_command = str(split[0])
@@ -209,12 +138,6 @@ async def on_command_completion(context: Context) -> None:
 
 @bot.event
 async def on_command_error(context: Context, error) -> None:
-    """
-    The code in this event is executed every time a normal valid command catches an error.
-
-    :param context: The context of the normal command that failed executing.
-    :param error: The error that has been faced.
-    """
     if isinstance(error, commands.CommandOnCooldown):
         minutes, seconds = divmod(error.retry_after, 60)
         hours, minutes = divmod(minutes, 60)
@@ -225,10 +148,6 @@ async def on_command_error(context: Context, error) -> None:
         )
         await context.send(embed=embed)
     elif isinstance(error, exceptions.UserBlacklisted):
-        """
-        The code here will only execute if the error is an instance of 'UserBlacklisted', which can occur when using
-        the @checks.not_blacklisted() check in your command, or you can raise the error by yourself.
-        """
         embed = discord.Embed(
             description="You are blacklisted from using the bot!", color=0xE02B2B
         )
@@ -242,9 +161,6 @@ async def on_command_error(context: Context, error) -> None:
                 f"{context.author} (ID: {context.author.id}) tried to execute a command in the bot's DMs, but the user is blacklisted from using the bot."
             )
     elif isinstance(error, exceptions.UserNotOwner):
-        """
-        Same as above, just for the @checks.is_owner() check.
-        """
         embed = discord.Embed(
             description="You are not the owner of the bot!", color=0xE02B2B
         )
@@ -286,9 +202,6 @@ async def on_command_error(context: Context, error) -> None:
 
 
 async def load_cogs() -> None:
-    """
-    The code in this function is executed whenever the bot will start.
-    """
     for file in os.listdir(f"{os.path.realpath(os.path.dirname(__file__))}/cogs"):
         if file.endswith(".py"):
             extension = file[:-3]

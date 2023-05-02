@@ -1,0 +1,558 @@
+[
+    {
+        "continent": "ANTONICA",
+        "zones": [
+            {
+                "type": "Outdoors",
+                "zones": [
+                    {
+                        "name": "The Arena",
+                        "link": "https://wiki.project1999.com/The_Arena"
+                    },
+                    {
+                        "name": "Beholder's Maze (Gorge of King Xorbb)",
+                        "link": "https://wiki.project1999.com/Beholder's_Maze"
+                    },
+                    {
+                        "name": "East Commonlands",
+                        "link": "https://wiki.project1999.com/East_Commonlands"
+                    },
+                    {
+                        "name": "Eastern Karana",
+                        "link": "https://wiki.project1999.com/Eastern_Plains_of_Karana"
+                    },
+                    {
+                        "name": "Everfrost Peaks",
+                        "link": "https://wiki.project1999.com/Everfrost_Peaks"
+                    },
+                    {
+                        "name": "Highpass Hold",
+                        "link": "https://wiki.project1999.com/Highpass_Hold"
+                    },
+                    {
+                        "name": "Innothule Swamp",
+                        "link": "https://wiki.project1999.com/Innothule_Swamp"
+                    },
+                    {
+                        "name": "Kithicor Forest",
+                        "link": "https://wiki.project1999.com/Kithicor_Forest"
+                    },
+                    {
+                        "name": "Lake Rathetear",
+                        "link": "https://wiki.project1999.com/Lake_Rathetear"
+                    },
+                    {
+                        "name": "Lavastorm Mountains",
+                        "link": "https://wiki.project1999.com/Lavastorm_Mountains"
+                    },
+                    {
+                        "name": "Misty Thicket",
+                        "link": "https://wiki.project1999.com/Misty_Thicket"
+                    },
+                    {
+                        "name": "Nektulos Forest",
+                        "link": "https://wiki.project1999.com/Nektulos_Forest"
+                    },
+                    {
+                        "name": "Northern Desert of Ro",
+                        "link": "https://wiki.project1999.com/Northern_Desert_of_Ro"
+                    },
+                    {
+                        "name": "Northern Karana",
+                        "link": "https://wiki.project1999.com/Northern_Plains_of_Karana"
+                    },
+                    {
+                        "name": "Oasis of Marr",
+                        "link": "https://wiki.project1999.com/Oasis_of_Marr"
+                    },
+                    {
+                        "name": "Ocean of Tears",
+                        "link": "https://wiki.project1999.com/Ocean_of_Tears"
+                    },
+                    {
+                        "name": "Qeynos Hills",
+                        "link": "https://wiki.project1999.com/Qeynos_Hills"
+                    },
+                    {
+                        "name": "Rathe Mountains",
+                        "link": "https://wiki.project1999.com/Rathe_Mountains"
+                    },
+                    {
+                        "name": "Southern Desert of Ro",
+                        "link": "https://wiki.project1999.com/Southern_Desert_of_Ro"
+                    },
+                    {
+                        "name": "Southern Karana",
+                        "link": "https://wiki.project1999.com/Southern_Karana"
+                    },
+                    {
+                        "name": "The Feerrott",
+                        "link": "https://wiki.project1999.com/The_Feerrott"
+                    },
+                    {
+                        "name": "West Commonlands",
+                        "link": "https://wiki.project1999.com/West_Commonlands"
+                    },
+                    {
+                        "name": "Western Karana",
+                        "link": "https://wiki.project1999.com/Western_Plains_of_Karana"
+                    }
+                ]
+            },
+            {
+                "type": "Cities",
+                "zones": [
+                    {
+                        "name": "Grobb",
+                        "link": "https://wiki.project1999.com/Grobb"
+                    },
+                    {
+                        "name": "Halas",
+                        "link": "https://wiki.project1999.com/Halas"
+                    },
+                    {
+                        "name": "Neriak",
+                        "link": "https://wiki.project1999.com/Neriak"
+                    },
+                    {
+                        "name": "Freeport",
+                        "link": "https://wiki.project1999.com/Freeport"
+                    },
+                    {
+                        "name": "Qeynos",
+                        "link": "https://wiki.project1999.com/Qeynos"
+                    },
+                    {
+                        "name": "Oggok",
+                        "link": "https://wiki.project1999.com/Oggok"
+                    },
+                    {
+                        "name": "Rivervale",
+                        "link": "https://wiki.project1999.com/Rivervale"
+                    },
+                    {
+                        "name": "Surefall Glade",
+                        "link": "https://wiki.project1999.com/Surefall_Glade"
+                    }
+                ]
+            },
+            {
+                "type": "Dungeons",
+                "zones": [
+                    {
+                        "name": "Befallen",
+                        "link": "https://wiki.project1999.com/Befallen"
+                    },
+                    {
+                        "name": "Blackburrow",
+                        "link": "https://wiki.project1999.com/Blackburrow"
+                    },
+                    {
+                        "name": "Cazic Thule",
+                        "link": "https://wiki.project1999.com/Cazic_Thule"
+                    },
+                    {
+                        "name": "Runnyeye Citadel",
+                        "link": "https://wiki.project1999.com/Runnyeye_Citadel"
+                    },
+                    {
+                        "name": "High Keep",
+                        "link": "https://wiki.project1999.com/High_Keep"
+                    },
+                    {
+                        "name": "Lower Guk",
+                        "link": "https://wiki.project1999.com/Lower_Guk"
+                    },
+                    {
+                        "name": "Nagafen's Lair (Sol B)",
+                        "link": "https://wiki.project1999.com/Nagafen%27s_Lair"
+                    },
+                    {
+                        "name": "Najena",
+                        "link": "https://wiki.project1999.com/Najena"
+                    },
+                    {
+                        "name": "Permafrost",
+                        "link": "https://wiki.project1999.com/Permafrost"
+                    },
+                    {
+                        "name": "Qeynos Aqueducts",
+                        "link": "https://wiki.project1999.com/Qeynos_Aqueducts"
+                    },
+                    {
+                        "name": "Solusek's Eye (Sol A)",
+                        "link": "https://wiki.project1999.com/Solusek%27s_Eye"
+                    },
+                    {
+                        "name": "Splitpaw Lair",
+                        "link": "https://wiki.project1999.com/Splitpaw_Lair"
+                    },
+                    {
+                        "name": "The Temple of Solusek Ro",
+                        "link": "https://wiki.project1999.com/The_Temple_of_Solusek_Ro"
+                    },
+                    {
+                        "name": "Upper Guk",
+                        "link": "https://wiki.project1999.com/Upper_Guk"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "continent": "ODUS",
+        "zones": [
+            {
+                "type": "Cities",
+                "zones": [
+                    {
+                        "name": "Erudin",
+                        "link": "https://wiki.project1999.com/Erudin"
+                    },
+                    {
+                        "name": "Paineel",
+                        "link": "https://wiki.project1999.com/Paineel"
+                    }
+                ]
+            },
+            {
+                "type": "Outdoors / Dungeons",
+                "zones": [
+                    {
+                        "name": "Erud's Crossing",
+                        "link": "https://wiki.project1999.com/Erud%27s_Crossing"
+                    },
+                    {
+                        "name": "Kerra Island",
+                        "link": "https://wiki.project1999.com/Kerra_Island"
+                    },
+                    {
+                        "name": "Toxxulia Forest",
+                        "link": "https://wiki.project1999.com/Toxxulia_Forest"
+                    },
+                    {
+                        "name": "The Hole",
+                        "link": "https://wiki.project1999.com/The_Hole"
+                    },
+                    {
+                        "name": "Stonebrunt Mountains",
+                        "link": "https://wiki.project1999.com/Stonebrunt_Mountains"
+                    },
+                    {
+                        "name": "The Warrens",
+                        "link": "https://wiki.project1999.com/The_Warrens"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "continent": "FAYDWER",
+        "zones": [
+            {
+                "type": "Cities",
+                "zones": [
+                    {
+                        "name": "Ak'Anon",
+                        "link": "https://wiki.project1999.com/Ak%27Anon"
+                    },
+                    {
+                        "name": "Felwithe",
+                        "link": "https://wiki.project1999.com/Felwithe"
+                    },
+                    {
+                        "name": "Kaladim",
+                        "link": "https://wiki.project1999.com/Kaladim"
+                    },
+                    {
+                        "name": "Kelethin (Greater Faydark)",
+                        "link": "https://wiki.project1999.com/Kelethin"
+                    }
+                ]
+            },
+            {
+                "type": "Outdoors / Dungeons",
+                "zones": [
+                    {
+                        "name": "Butcherblock Mountains",
+                        "link": "https://wiki.project1999.com/Butcherblock_Mountains"
+                    },
+                    {
+                        "name": "Dagnor's Cauldron",
+                        "link": "https://wiki.project1999.com/Dagnor%27s_Cauldron"
+                    },
+                    {
+                        "name": "Greater Faydark",
+                        "link": "https://wiki.project1999.com/Greater_Faydark"
+                    },
+                    {
+                        "name": "Lesser Faydark",
+                        "link": "https://wiki.project1999.com/Lesser_Faydark"
+                    },
+                    {
+                        "name": "Ocean of Tears",
+                        "link": "https://wiki.project1999.com/Ocean_of_Tears"
+                    },
+                    {
+                        "name": "Steamfont Mountains",
+                        "link": "https://wiki.project1999.com/Steamfont_Mountains"
+                    },
+                    {
+                        "name": "Crushbone",
+                        "link": "https://wiki.project1999.com/Crushbone"
+                    },
+                    {
+                        "name": "Kedge Keep",
+                        "link": "https://wiki.project1999.com/Kedge_Keep"
+                    },
+                    {
+                        "name": "Mistmoore Castle",
+                        "link": "https://wiki.project1999.com/Mistmoore_Castle"
+                    },
+                    {
+                        "name": "The Estate of Unrest",
+                        "link": "https://wiki.project1999.com/The_Estate_of_Unrest"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "continent": "KUNARK",
+        "zones": [
+            {
+                "type": "Outdoors",
+                "zones": [
+                    {
+                        "name": "Burning Wood",
+                        "link": "https://wiki.project1999.com/Burning_Wood"
+                    },
+                    {
+                        "name": "Dreadlands",
+                        "link": "https://wiki.project1999.com/Dreadlands"
+                    },
+                    {
+                        "name": "Emerald Jungle",
+                        "link": "https://wiki.project1999.com/Emerald_Jungle"
+                    },
+                    {
+                        "name": "Field of Bone",
+                        "link": "https://wiki.project1999.com/Field_of_Bone"
+                    },
+                    {
+                        "name": "Firiona Vie",
+                        "link": "https://wiki.project1999.com/Firiona_Vie"
+                    },
+                    {
+                        "name": "Frontier Mountains",
+                        "link": "https://wiki.project1999.com/Frontier_Mountains"
+                    },
+                    {
+                        "name": "Lake of Ill Omen",
+                        "link": "https://wiki.project1999.com/Lake_of_Ill_Omen"
+                    },
+                    {
+                        "name": "The Overthere",
+                        "link": "https://wiki.project1999.com/The_Overthere"
+                    },
+                    {
+                        "name": "Skyfire Mountains",
+                        "link": "https://wiki.project1999.com/Skyfire_Mountains"
+                    },
+                    {
+                        "name": "Swamp of No Hope",
+                        "link": "https://wiki.project1999.com/Swamp_of_No_Hope"
+                    },
+                    {
+                        "name": "Timorous Deep",
+                        "link": "https://wiki.project1999.com/Timorous_Deep"
+                    },
+                    {
+                        "name": "Trakanon's Teeth",
+                        "link": "https://wiki.project1999.com/Trakanon%27s_Teeth"
+                    },
+                    {
+                        "name": "Warsliks Woods",
+                        "link": "https://wiki.project1999.com/Warsliks_Woods"
+                    }
+                ]
+            },
+            {
+                "type": "Cities",
+                "zones": [
+                    {
+                        "name": "Cabilis",
+                        "link": "https://wiki.project1999.com/Cabilis"
+                    }
+                ]
+            },
+            {
+                "type": "Dungeons",
+                "zones": [
+                    {
+                        "name": "Chardok",
+                        "link": "https://wiki.project1999.com/Chardok"
+                    },
+                    {
+                        "name": "City of Mist",
+                        "link": "https://wiki.project1999.com/City_of_Mist"
+                    },
+                    {
+                        "name": "Dalnir",
+                        "link": "https://wiki.project1999.com/Dalnir"
+                    },
+                    {
+                        "name": "Howling Stones (Charasis)",
+                        "link": "https://wiki.project1999.com/Howling_Stones"
+                    },
+                    {
+                        "name": "Kaesora",
+                        "link": "https://wiki.project1999.com/Kaesora"
+                    },
+                    {
+                        "name": "Karnor's Castle",
+                        "link": "https://wiki.project1999.com/Karnor%27s_Castle"
+                    },
+                    {
+                        "name": "Kurn's Tower",
+                        "link": "https://wiki.project1999.com/Kurn%27s_Tower"
+                    },
+                    {
+                        "name": "Mines of Nurga",
+                        "link": "https://wiki.project1999.com/Mines_of_Nurga"
+                    },
+                    {
+                        "name": "Old Sebilis",
+                        "link": "https://wiki.project1999.com/Old_Sebilis"
+                    },
+                    {
+                        "name": "Temple of Droga",
+                        "link": "https://wiki.project1999.com/Temple_of_Droga"
+                    },
+                    {
+                        "name": "Veeshan's Peak",
+                        "link": "https://wiki.project1999.com/Veeshan%27s_Peak"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "continent": "VELIOUS",
+        "zones": [
+            {
+                "type": "Outdoors",
+                "zones": [
+                    {
+                        "name": "Cobalt Scar",
+                        "link": "https://wiki.project1999.com/Cobalt_Scar"
+                    },
+                    {
+                        "name": "Eastern Wastes",
+                        "link": "https://wiki.project1999.com/Eastern_Wastes"
+                    },
+                    {
+                        "name": "The Great Divide",
+                        "link": "https://wiki.project1999.com/The_Great_Divide"
+                    },
+                    {
+                        "name": "Iceclad Ocean",
+                        "link": "https://wiki.project1999.com/Iceclad_Ocean"
+                    },
+                    {
+                        "name": "Wakening Land",
+                        "link": "https://wiki.project1999.com/Wakening_Land"
+                    },
+                    {
+                        "name": "Western Wastes",
+                        "link": "https://wiki.project1999.com/Western_Wastes"
+                    }
+                ]
+            },
+            {
+                "type": "Cities",
+                "zones": [
+                    {
+                        "name": "Icewell Keep",
+                        "link": "https://wiki.project1999.com/Icewell_Keep"
+                    },
+                    {
+                        "name": "Kael Drakkal",
+                        "link": "https://wiki.project1999.com/Kael_Drakkal"
+                    },
+                    {
+                        "name": "Skyshrine",
+                        "link": "https://wiki.project1999.com/Skyshrine"
+                    },
+                    {
+                        "name": "Thurgadin",
+                        "link": "https://wiki.project1999.com/Thurgadin"
+                    }
+                ]
+            },
+            {
+                "type": "Dungeons",
+                "zones": [
+                    {
+                        "name": "Crystal Caverns",
+                        "link": "https://wiki.project1999.com/Crystal_Caverns"
+                    },
+                    {
+                        "name": "Dragon Necropolis",
+                        "link": "https://wiki.project1999.com/Dragon_Necropolis"
+                    },
+                    {
+                        "name": "Siren's Grotto",
+                        "link": "https://wiki.project1999.com/Siren%27s_Grotto"
+                    },
+                    {
+                        "name": "Sleeper's Tomb",
+                        "link": "https://wiki.project1999.com/Sleeper%27s_Tomb"
+                    },
+                    {
+                        "name": "Temple of Veeshan",
+                        "link": "https://wiki.project1999.com/Temple_of_Veeshan"
+                    },
+                    {
+                        "name": "Tower of Frozen Shadow",
+                        "link": "https://wiki.project1999.com/Tower_of_Frozen_Shadow"
+                    },
+                    {
+                        "name": "Velketor's Labyrinth",
+                        "link": "https://wiki.project1999.com/Velketor%27s_Labyrinth"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "continent": "PLANES",
+        "zones": [
+            {
+                "type": "Plane",
+                "zones": [
+                    {
+                        "name": "Plane of Fear",
+                        "link": "https://wiki.project1999.com/Plane_of_Fear"
+                    },
+                    {
+                        "name": "Plane of Hate",
+                        "link": "https://wiki.project1999.com/Plane_of_Hate"
+                    },
+                    {
+                        "name": "Plane of Sky",
+                        "link": "https://wiki.project1999.com/Plane_of_Sky"
+                    },
+                    {
+                        "name": "Plane of Growth",
+                        "link": "https://wiki.project1999.com/Plane_of_Growth"
+                    },
+                    {
+                        "name": "Plane of Mischief",
+                        "link": "https://wiki.project1999.com/Plane_of_Mischief"
+                    }
+                ]
+            }
+        ]
+    }
+]
