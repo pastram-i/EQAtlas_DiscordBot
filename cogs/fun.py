@@ -74,13 +74,14 @@ class RockPaperScissors(discord.ui.Select):
         if user_choice_index == bot_choice_index:
             result_embed.description = f"**That's a draw!**\nYou've chosen {user_choice} and I've chosen {bot_choice}."
             result_embed.colour = 0xF59E42
-        elif user_choice_index == 0 and bot_choice_index == 2:
-            result_embed.description = f"**You won!**\nYou've chosen {user_choice} and I've chosen {bot_choice}."
-            result_embed.colour = 0x9C84EF
-        elif user_choice_index == 1 and bot_choice_index == 0:
-            result_embed.description = f"**You won!**\nYou've chosen {user_choice} and I've chosen {bot_choice}."
-            result_embed.colour = 0x9C84EF
-        elif user_choice_index == 2 and bot_choice_index == 1:
+        elif (
+            user_choice_index == 0
+            and bot_choice_index == 2
+            or user_choice_index == 1
+            and bot_choice_index == 0
+            or user_choice_index == 2
+            and bot_choice_index == 1
+        ):
             result_embed.description = f"**You won!**\nYou've chosen {user_choice} and I've chosen {bot_choice}."
             result_embed.colour = 0x9C84EF
         else:
