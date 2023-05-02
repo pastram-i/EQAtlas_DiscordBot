@@ -22,10 +22,9 @@ async def get_blacklisted_users() -> list:
     """
     async with aiosqlite.connect(DATABASE_PATH) as db:
         async with db.execute(
-            "SELECT user_id, strftime('%s', created_at) FROM blacklist"
-        ) as cursor:
-            result = await cursor.fetchall()
-            return result
+                    "SELECT user_id, strftime('%s', created_at) FROM blacklist"
+                ) as cursor:
+            return await cursor.fetchall()
 
 
 async def is_blacklisted(user_id: int) -> bool:
@@ -153,7 +152,4 @@ async def get_warnings(user_id: int, server_id: int) -> list:
         )
         async with rows as cursor:
             result = await cursor.fetchall()
-            result_list = []
-            for row in result:
-                result_list.append(row)
-            return result_list
+            return list(result)
